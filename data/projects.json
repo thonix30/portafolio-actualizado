@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Sistema SSO Gubernamental",
+      "category": "Autenticación",
+      "description": "Single Sign-On unificado que conecta múltiples aplicaciones gubernamentales (VISAR, VISAN, Votaciones, Dashboards) con autenticación JWT y gestión centralizada de sesiones.",
+      "technologies": ["PHP", "JWT", "REST API", "MySQL"],
+      "image": "sso.jpg",
+      "icon": "🔐"
+    },
+    {
+      "id": 2,
+      "title": "Sistema de Votaciones",
+      "category": "Congreso de Guatemala",
+      "description": "Plataforma completa para procesamiento de registros de votación del Congreso. Procesamiento de PDFs, gestión de diputados, análisis estadístico y dashboards interactivos.",
+      "technologies": ["PHP", "PDF Processing", "Chart.js", "JavaScript"],
+      "image": "votaciones.jpg",
+      "icon": "🗳️"
+    },
+    {
+      "id": 3,
+      "title": "VIDER - Desarrollo Rural",
+      "category": "MAGA",
+      "description": "Sistema de visualización de datos económicos y desarrollo rural. Incluye mapas interactivos de Guatemala con zoom departamental, importación Excel y detección de duplicados.",
+      "technologies": ["PHP", "MySQL", "Excel Import", "Interactive Maps"],
+      "image": "vider.jpg",
+      "icon": "🌾"
+    },
+    {
+      "id": 4,
+      "title": "Sistema de Ejecución Presupuestaria",
+      "category": "MAGA",
+      "description": "Dashboard ejecutivo con diseño glassmorphism para seguimiento de ejecución presupuestaria. Gráficos interactivos, audit trails completos y reportes automatizados.",
+      "technologies": ["PHP", "Chart.js", "Glassmorphism", "MySQL"],
+      "image": "presupuesto.jpg",
+      "icon": "📊"
+    },
+    {
+      "id": 5,
+      "title": "VISAR - Gestión de Exportaciones",
+      "category": "Comercio Exterior",
+      "description": "Plataforma integral para gestión de exportaciones e importaciones. Integrada con SSO, procesamiento de documentos y seguimiento de trámites comerciales.",
+      "technologies": ["PHP", "MySQL", "REST API", "Document Management"],
+      "image": "visar.jpg",
+      "icon": "📦"
+    },
+    {
+      "id": 6,
+      "title": "TOBANIK - Datos Cooperativas",
+      "category": "Agricultura",
+      "description": "Sistema de importación y gestión de datos de cooperativas agrícolas. Procesamiento masivo de información y análisis de producción del sector cooperativo.",
+      "technologies": ["PHP", "Data Import", "MySQL", "Analytics"],
+      "image": "tobanik.jpg",
+      "icon": "🤝"
+    }
+  ]
+}
